@@ -1,0 +1,167 @@
+/* --- GLOBAL STYLES */
+
+body {
+    background-image: url('../img/hypnotize.png');
+    font-size: 16px;
+    line-height: 2.0em;
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    margin:0;
+    padding:0;
+    color: #eee;
+    font-family: Georgia, serif;
+}
+
+h2 {
+    margin: 0 0 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #aaa;
+    font-family: Georgia, serif;
+    color: #4aaaa5;
+}
+
+p {
+    margin: 20px 0 0 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 7px;
+}
+
+input {
+    display: block;
+    width: 100%;
+}
+
+textarea {
+    height: 200px;
+    display: block;
+    width: 100%;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.box {
+    border: 1px solid #aaa;
+    padding: 30px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+/* ---HEADER STYLES --- */
+
+.navbar-brand {
+    background: #4aaaa5;
+    text-align: center;
+}
+
+/* --- FOOTER STYLES ---*/
+
+.footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:70px;
+   width:100%;
+   background:#aaa;
+   border-top: 5px solid #4aaaa5;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.footer-clear {
+    height: 80px;
+    width: 100%;
+}
+
+/* --- SOCIAL ICONS --- */
+
+.social-icons {
+    font-size: 70px;
+    margin: 25px;
+}
+
+.icon1 {
+    color: #047BB4;
+}
+
+.icon2 {
+    color: #333333;
+}
+
+.icon3 {
+    color: #FFA43A;
+}
+
+/* --- ABOUT BOX --- */
+
+.about-img {
+    background-image: url('../img/profile.png');
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    margin: 25px 0 0 16px;
+}
+
+/* --- PORTFOLIO BG IMAGES ---*/
+
+.bg-img {
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    margin: 25px;
+}
+
+.bg-img h2 {
+    padding-top: 100px;
+    color: #fff;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 28px;
+    border-bottom: 5px solid transparent;
+}
+
+.bg-img h2:hover {
+    border-bottom: 5px solid #4aaaa5;
+}
+
+.img1 {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/photo-1.png');
+}
+
+.img2 {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/photo-2.png');
+}
+
+.img3 {
+    background-image: url('../img/photo-3.png');
+}
+
+.img4 {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/photo-4.png');
+}
+
+.img5 {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/photo-5.png');
+}
+
+
+
+
+/* header media query (to make the header go all the way across) */
+
+@media only screen and (max-width: 767px) {
+    .navbar-brand {
+        background: #4aaaa5;
+        text-align: center;
+        width: 100%;
+    }
+}
+
